@@ -9,6 +9,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "json-server": "^1.0.0-alpha.23",
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "sweetalert2": "^11.10.4",
+    "toastify-js": "^1.12.0",
+    "uuid": "^9.0.1"
   }
 }

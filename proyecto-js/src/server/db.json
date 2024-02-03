@@ -1,0 +1,43 @@
+{
+  "stock": [
+    {
+      "id": "20c7fc80-9de6-4e2a-bf1e-ebe6039f49bc",
+      "name": "pantalon",
+      "tall": "xl",
+      "units": 10
+    },
+    {
+      "id": "93fa87d8-ce62-4991-b793-48a18f476661",
+      "name": "pantalon",
+      "tall": "",
+      "units": 3
+    },
+    {
+      "id": "e26d349e-e08b-4a34-8d97-a9dd634db2c3",
+      "name": "vestido",
+      "tall": "xl",
+      "units": 2
+    },
+    {
+      "id": "9e351f53-b13f-46f7-ad78-2a2ea81c8cb6",
+      "name": "vestido",
+      "tall": "xl",
+      "units": 3
+    },
+    {
+      "id": "11908cc4-9172-48cc-ad46-a0d4411deb5c",
+      "name": "remera",
+      "tall": "l",
+      "units": 4
+    }
+  ],
+  "users": [
+    {
+      "id": "f6320f33-91b1-4b5a-a4f7-745c955de490",
+      "name": "AGUSTINA",
+      "lastname": "BIRN",
+      "email": "agusbirn@hotmail.com",
+      "password": "1234"
+    }
+  ]
+}

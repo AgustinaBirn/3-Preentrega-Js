@@ -1,0 +1,28 @@
+
+
+<div class="container">
+    <div class="row">
+        <div class="text-center">
+            <h1>Stock productos</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <form id="formStock" class="row d-flex"> 
+              <!-- EDITAR P/ QUE QUEDE ESPACIO ENTRE LOS DOS FORMS-->
+                <input id="inputStock" class="col form-control" type="text" placeholder="Ingrese el nombre del producto">
+                <input id="inputTallStock" class="col form-control" type="text" placeholder="Ingrese el talle">
+                <input class="row ms-0 mt-2 btn btn-primary " type="submit" value="Agregar">
+            </form>
+            <select class="form-select my-4" name="" id="filterProducts">
+              <option value="all">Todos los productos</option>
+              <option value="pantalon">Pantalones</option>
+              <option value="remera">Remeras</option>
+              <option value="vestido">Vestidos</option>
+            </select>
+        </div>
+    </div>
+    <!-- Listado de productos -->
+    <div id="productContainer">
+    </div>
+  </div>

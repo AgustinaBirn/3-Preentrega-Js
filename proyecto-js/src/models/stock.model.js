@@ -1,10 +1,10 @@
-
-export const createProduct = (text, tall) => {
+import { v4 as generateID } from "uuid";
+export const createProduct = (text, tall, units) => {
     let newProduct = {
-        id: Date.now().toString(36),
+        id: generateID(),
         name: text,
         tall: tall,
-        state: false
+        units: units
     }
 
     return newProduct;

@@ -1,16 +1,10 @@
-import htmlElements from "./elements/html.elements";
-import tasksManager from "./managers/tasks.manager";
+
+import { Login } from "./components/Login.js";
+import { StockApp } from "./components/StockApp.js";
+import { Register } from "./components/register.js";
 
 export const app = () => {
-       // Ejecutar actividades iniciales
-       console.log("Ejecutando aplicación");
-       htmlElements.formStock.onsubmit = (event) => {
-              event.preventDefault();
-              tasksManager.addProduct();
-       }
-       tasksManager.showStock(tasksManager.stock);
-       htmlElements.filterProducts.onchange = () => {
-              console.log(htmlElements.filterProducts.value);
-              tasksManager.filterProducts(htmlElements.filterProducts.value);
-       }
+       // StockApp();
+       // Register();
+       Login();
 }
